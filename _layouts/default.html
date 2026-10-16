@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} · π-Graph{% else %}π-Graph — the people in your life, as a map{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: 'A private map of the people you know, kept on your own devices. For iPhone, Android, Mac and Windows.' }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/icon.png">
+  <link rel="stylesheet" href="/assets/fonts/fonts.css">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="32" height="32"><span><span class="pi">π</span>-Graph</span></a>
+    <nav>
+      <a href="/support"{% if page.url contains 'support' %} aria-current="page"{% endif %}>Support</a>
+      <a href="/privacy-policy"{% if page.url contains 'privacy' %} aria-current="page"{% endif %}>Privacy</a>
+    </nav>
+  </header>
+  <main class="{{ page.class | default: 'prose' }}">
+{{ content }}
+  </main>
+  <footer class="site-footer">
+    <span><span class="pi">π</span>-Graph</span>
+    <a href="mailto:3.14graph@gmail.com">3.14graph@gmail.com</a>
+    <a href="/privacy-policy">Privacy policy</a>
+  </footer>
+</body>
+</html>

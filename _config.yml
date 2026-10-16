@@ -1,0 +1,16 @@
+# The public site at https://3-14-graph.github.io, built by GitHub Pages' own
+# Jekyll. Edited here, in the app's repository, and published with
+# tools/publish-site.sh, which adds www/privacy-policy.md, the fonts and the
+# icon. Don't edit the public repository directly; the next publish replaces it.
+title: π-Graph
+lang: en
+markdown: kramdown
+exclude:
+  - README.md
+# privacy-policy.md is the app's own file and carries no front matter, since
+# the app would show it as text; this gives it the layout instead.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
