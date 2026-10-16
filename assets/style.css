@@ -129,7 +129,7 @@ code {
   color: var(--ink-muted);
   font-size: 14px;
 }
-.site-footer span { font-family: var(--serif); color: var(--ink); margin-right: auto; }
+.site-footer > span { font-family: var(--serif); color: var(--ink); margin-right: auto; }
 .site-footer a { color: var(--ink-muted); }
 
 @media (min-width: 640px) {
