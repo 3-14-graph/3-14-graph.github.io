@@ -38,6 +38,7 @@ body {
 a { color: var(--accent); text-underline-offset: 0.15em; }
 a:hover { text-decoration-thickness: 2px; }
 .pi { color: var(--accent); }
+.nb { white-space: nowrap; }
 
 .site-header, .site-footer, main {
   width: 100%;

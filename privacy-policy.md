@@ -91,12 +91,12 @@ It does not pass through us, and we never see it or the reply. The service
 handles what it receives under its own terms and privacy policy. Those terms
 are part of your agreement with that service:
 
-- Anthropic (Claude): https://www.anthropic.com/legal/privacy
-- OpenAI (ChatGPT): https://openai.com/policies/privacy-policy
-- Google (Gemini): https://ai.google.dev/gemini-api/terms. Google's terms
+- Anthropic (Claude): [https://www.anthropic.com/legal/privacy](https://www.anthropic.com/legal/privacy)
+- OpenAI (ChatGPT): [https://openai.com/policies/privacy-policy](https://openai.com/policies/privacy-policy)
+- Google (Gemini): [https://ai.google.dev/gemini-api/terms](https://ai.google.dev/gemini-api/terms). Google's terms
   differ between its free and paid tiers, including on whether what you send
   may be used to improve Google's products.
-- OpenRouter: https://openrouter.ai/privacy. OpenRouter passes each note on
+- OpenRouter: [https://openrouter.ai/privacy](https://openrouter.ai/privacy). OpenRouter passes each note on
   to the company that runs the model you chose, and that company's terms
   apply too.
 
