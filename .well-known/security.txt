@@ -1,0 +1,7 @@
+# How to report a security problem in π-Graph: its apps, the sync between
+# your devices, or this website. Please write before publishing details.
+Contact: mailto:3.14graph@gmail.com
+Expires: 2027-10-01T00:00:00Z
+Preferred-Languages: en
+Canonical: https://3-14-graph.github.io/.well-known/security.txt
+Policy: https://3-14-graph.github.io/support#security

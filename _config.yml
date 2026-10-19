@@ -7,6 +7,9 @@ lang: en
 markdown: kramdown
 exclude:
   - README.md
+# Jekyll skips dot-folders unless told otherwise.
+include:
+  - .well-known
 # privacy-policy.md is the app's own file and carries no front matter, since
 # the app would show it as text; this gives it the layout instead.
 defaults:

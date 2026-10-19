@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- GitHub Pages can't send headers, so the policy is here. The site has
+       no script at all and loads only its own files; anything injected into
+       a page could not run, load from elsewhere or submit a form. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} · π-Graph{% else %}π-Graph — the people in your life, as a map{% endif %}</title>
   <meta name="description" content="{{ page.description | default: 'A private map of the people you know, kept on your own devices. For iPhone, Android, Mac and Windows.' }}">
