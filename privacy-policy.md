@@ -1,6 +1,6 @@
 # π-Graph privacy policy
 
-Last updated: 27 October 2026
+Last updated: 28 October 2026
 
 π-Graph is a personal map of the people you know. This policy covers the
 iPhone, Android, Mac and Windows apps.
@@ -125,6 +125,15 @@ maker to be transcribed (to Apple, on an iPhone or Mac), under that company's
 privacy policy. π-Graph receives only the text. Speak is not available on
 Android, where you can type the note instead.
 
+## Reminders
+
+On a phone, π-Graph can remind you of birthdays and special dates in the
+morning, and to write down your day in the evening, if you turn reminders
+on. They are prepared on the phone and shown by its operating system;
+nothing is sent to us or to anyone else. A morning reminder names the people
+whose dates are coming up, so it can appear on your lock screen. Your
+phone's settings can hide what notifications say there.
+
 ## Camera
 
 On a phone, π-Graph can use the camera to read the pairing code your computer
@@ -136,6 +145,7 @@ leave it. The camera is used for nothing else.
 - **Local network** (iPhone): to sync with your computer.
 - **Camera** (iPhone, Android): to scan the pairing code. This is optional;
   you can type the code instead.
+- **Notifications** (iPhone, Android): for reminders, if you turn them on.
 - **Storage** (Android 10 and older only): to save a copy of your graph to
   Documents.
 
