@@ -1,6 +1,6 @@
 # π-Graph privacy policy
 
-Last updated: 16 October 2026
+Last updated: 27 October 2026
 
 π-Graph is a personal map of the people you know. This policy covers the
 iPhone, Android, Mac and Windows apps.
@@ -11,10 +11,14 @@ iPhone, Android, Mac and Windows apps.
   is ever sent to us.
 - Your graph is stored on your own devices. Your phone and computer sync
   with each other directly over your own Wi-Fi, encrypted.
-- One optional feature sends data out: reading a note you speak or type. It
-  is off until you choose an AI service, add your own key for it, and agree
-  to a screen that says what will be sent. The note then goes from your
-  device straight to that service, under your own account with them.
+- The version in the app stores and on our website sends nothing anywhere
+  else.
+- A later version will add one optional feature that does send data:
+  reading a note you speak or type. It is described below, so you know now
+  what it will send. It will be off until you choose an AI service, add your
+  own key for it, and agree to a screen that says what will be sent. The note
+  will then go from your device straight to that service, under your own
+  account with them.
 
 ## What is stored, and where
 
@@ -59,12 +63,16 @@ you pair them. Each device keeps the key in its own system keychain, and the
 key itself is never sent over the network. No one else, including us, can read
 what they exchange.
 
-## Reading a note with an AI service (optional)
+## Reading a note with an AI service (in a later version)
 
-Speak and Type turn a note into changes to your graph, such as a new person,
-a detail or a connection. You review the changes before anything is saved.
-To do this, π-Graph sends the note to an AI service. This happens only after
-you have done all three of these:
+This feature is not in the version in the app stores and on our website.
+When it comes, it will work as described here; if anything differs, this
+policy will be updated before that version is released.
+
+A note, typed or spoken, is turned into changes to your graph, such as a new
+person, a detail or a connection. You review the changes before anything is
+saved. To do this, π-Graph sends the note to an AI service. This happens only
+after you have done all three of these:
 
 1. chosen a service under AI features: Claude (run by Anthropic), ChatGPT (run
    by OpenAI), Gemini (run by Google), or OpenRouter;
@@ -110,7 +118,8 @@ anywhere except to the service they belong to.
 
 ## Voice
 
-Speak uses the speech recognition built into your device's operating system.
+Speaking a note comes with reading notes, in a later version. It uses the
+speech recognition built into your device's operating system.
 Depending on your device and settings, the system may send the audio to its
 maker to be transcribed (to Apple, on an iPhone or Mac), under that company's
 privacy policy. π-Graph receives only the text. Speak is not available on
